@@ -1,0 +1,84 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h3{
+	font-family: cursive;
+	font-size: 2.5rem;
+	padding-bottom:0;
+}
+button{
+	font-family:  sans-serif;
+}
+input {
+	margin: 10px;
+}
+p{
+	padding-top:20px;
+}
+.top-div{
+	background-color: #00ffe1;
+	padding:150px;
+	padding-bottom:100px;
+	color:#0004f7;
+}
+.bottom-div{
+	padding:150px;
+	background-color:#62f081;
+	color:#ff0000;
+}
+#s1{
+	color:#ff0000;
+	border-color:#62f081;
+	border-style:none;
+	padding:7px;
+}
+#name1{
+	color:#00ffff;
+	border-style:none;
+	padding:7px;
+}
+/* Styling all the buttons */
+#show{
+	margin-bottom: 10px;
+}
+#submit_button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#sort_button {
+	display: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#srch{
+	background-color:#f700ff;
+	color:rgb(255, 251, 0);
+}
+#srch:hover{
+	background-color:#FB00FF;
+	color:rgb(255, 251, 0);
+}
+/* Styling all the placeholders */
+#name1::placeholder{
+	color:#ff6600;
+}
+#name1:-ms-input-placeholder {
+	color:#00ffe1;
+   ;
+}
+#name1::-ms-input-placeholder {
+	color:#00ffe1;
+   ;
+}
+#s1::-ms-input-placeholder {
+	color:#be1d5bbd;
+}
+#s1::placeholder{
+	color:#be1d5bbd;
+}
+#s1:-ms-input-placeholder {
+	color:#be1d5bbd;
+}
+#s1::-ms-input-placeholder {
+	color:#be1d5bbd;
+}

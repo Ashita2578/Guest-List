@@ -1,0 +1,42 @@
+
+<html>
+
+<head>
+	<title>Guest List</title>
+	<script src="Project-80Template-main_main.js"></script>
+	<link href="Project-80Template-main_style.css" rel="stylesheet">
+	 </head>
+
+<body>
+	<center>
+		<div class="top-div">
+			<h3>
+			Guest List
+		</h3>
+			<br>
+			<div id="rows"> </div>
+			<input type="text" placeholder="Enter name" id="name1">
+			<button onclick="submit()" id="submit_button" class="btn btn-info btn-sm">Submit</button> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			<div id="display_name"> </div>
+			<br>
+			<br>
+			<div id="Show1">
+				<button onclick="show()" id="show" class="btn btn-info btn-sm">Show</button>
+				<br>
+				<p id="p1"></p>
+			</div>
+			<button onclick="sorting()" id="sort_button" class="btn btn-info btn-sm"> Sorted List </button>
+			<div id="sorted"></div>
+		</div>
+
+		<div class="bottom-div">
+			<h3>Search</h3>
+			<br>
+			<input type="text" placeholder="Search name" id="s1">&nbsp;
+			<button onclick="searching()" id=srch class="btn btn-sm">Search</button>
+			<p id="p2"></p>
+		</div>
+	</center>
+</body>
+
+</html>
